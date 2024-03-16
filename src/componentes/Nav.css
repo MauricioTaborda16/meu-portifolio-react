@@ -1,0 +1,20 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #131d30;
+    height: 137px;
+    width: 100%;
+}
+ul{
+    display: flex;
+    padding: 3px;
+    margin-left: 90px;
+}
+
+ul li{
+    display: inline;
+    padding: 50px;
+}
+
+
+

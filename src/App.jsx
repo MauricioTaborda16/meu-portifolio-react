@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import Nav from './componentes/Nav'
+import Projetos from './componentes/Projetos'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-     <h1>olá mundo</h1>
+    <Nav/>
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <Projetos id="Projetos"/>
     </>
   )
 }
