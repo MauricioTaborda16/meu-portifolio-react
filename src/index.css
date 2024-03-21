@@ -3,7 +3,7 @@
 body{
   font-family: Poppins;
  
-  background-color: #101e35;
+  background-color: #192f52;
   color: aliceblue;
 }
 a{
@@ -12,4 +12,5 @@ a{
 }
 a:hover{
   cursor: pointer;
+  color: rgb(198, 206, 213);
 }

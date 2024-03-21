@@ -2,7 +2,7 @@
 import './App.css'
 import Eu from './componentes/Eu'
 import Nav from './componentes/Nav'
-import Projetos from './componentes/Projetos'
+import Projetos from './Projetos'
 
 function App() {
   

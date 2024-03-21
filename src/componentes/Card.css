@@ -1,0 +1,28 @@
+.cad{
+    
+    width: 750px;
+    background-color:  #131d30;;
+    margin: 35px;
+    padding: 20px;
+    border-radius: 60px 0px 60px;
+}
+
+img{
+    margin: 20px;
+    margin-left: 50px;
+    width: 600px;
+}
+
+button{
+    border: 0;
+    border-radius: 30px 0px 30px;
+    background-color: #162948;
+    height: 70px;
+    width: 200px;
+    margin-left: 155px;
+}
+
+button a{
+    font-weight: 600;
+    font-size: 65px;
+}
