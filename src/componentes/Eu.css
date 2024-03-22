@@ -1,6 +1,21 @@
+.Eu{
+    margin: 50px 50px 400px 50px;
+}
+
 h1{
     font-size: 70px;
     margin: 30px;
+}
+
+h2{
+    font-size: 50px;
+    margin: 60px;
+    margin-left: 200px;
+    background-color: black;
+    width: 1250px;
+   
+    padding: 45px;
+    border-radius: 30px 0px 30px;
 }
 
 p{

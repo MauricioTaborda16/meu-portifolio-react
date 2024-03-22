@@ -10,8 +10,9 @@ function App() {
   return (
     <>
     <Nav/>
+    <br/><br/><br/><br/><br/>
     <Eu/>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    
     <Projetos id="Projetos"/>
     </>
   )
