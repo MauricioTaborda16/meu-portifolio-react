@@ -8,10 +8,11 @@ function Nav(){
                 <li><a href='#Projetos'>Projetos</a></li>
                 <li><a href='#TeC'>Tecnologias</a></li>
                 <li><a href='#SobreM'>Sobre mim</a></li>
+                <li><a href='#Con'>Contato</a></li>
             </ul>
          
           <ul className='icon'>
-            <li> <a href='https://github.com/MauricioTaborda16'> <FaGithub size={30} /></a> </li>
+            <li> <a href='https://github.com/MauricioTaborda16'> <FaGithub size={50} /></a> </li>
           </ul>
             
         </nav>

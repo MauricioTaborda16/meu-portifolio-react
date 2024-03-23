@@ -6,6 +6,8 @@ import pais from "./imag/pais.svg"
 import tabu from "./imag/tabuada.svg"
 import cep from "./imag/cep.svg"
 import "./Projetos.css"
+import Tec from "./componentes/Tec"
+
 function Projetos(){
     return(
         <section id="Projetos" className="Pro">
@@ -49,9 +51,14 @@ function Projetos(){
                des="API de CEP"
                site="https://api-dnc-2023.vercel.app/"
                />
-
+            
              
             </div>
+            <div>
+                <h1>Tecnologias</h1>
+                <Tec/>
+            </div>
+            
         </section>
     )
 }

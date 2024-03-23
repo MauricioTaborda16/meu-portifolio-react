@@ -1,7 +1,9 @@
 
 import './App.css'
 import Eu from './componentes/Eu'
+import Foooter from './componentes/Footer'
 import Nav from './componentes/Nav'
+
 import Projetos from './Projetos'
 
 function App() {
@@ -14,6 +16,9 @@ function App() {
     <Eu/>
     
     <Projetos id="Projetos"/>
+
+    <Foooter/>
+
     </>
   )
 }
