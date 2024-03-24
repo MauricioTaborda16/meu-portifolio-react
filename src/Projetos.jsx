@@ -19,6 +19,13 @@ function Projetos(){
                 site="https://desafio-landing-page-eight.vercel.app/"
                 
                />
+
+               <Card
+               imag={cep}
+               des="API de CEP"
+               site="https://api-dnc-2023.vercel.app/"
+               />
+            
                </div>
                <div className="container">
                <Card
@@ -46,12 +53,7 @@ function Projetos(){
                site="https://tabuada-neon-three.vercel.app/"
                />
 
-               <Card
-               imag={cep}
-               des="API de CEP"
-               site="https://api-dnc-2023.vercel.app/"
-               />
-            
+               
              
             </div>
             <div>

@@ -1,12 +1,21 @@
 footer {
-    padding: 30px;
-    text-align: center;
+    display: flex;
+    padding: 5px;
+    text-align:justify;
     width: 100%;
     border: 1px solid black;
     height: 500px;
 }
 
 footer h1{
-    
+   margin: 35px;
     font-weight: 100;
+    margin: 30px;
+    padding: 0px;
 }
+
+footer a{
+    margin-top: 60px;
+    margin-left: 500px;
+}
+

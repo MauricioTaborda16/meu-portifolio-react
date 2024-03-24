@@ -2,7 +2,7 @@ import './Eu.css'
 import { useEffect, useState } from 'react'
 function Eu(){
     const [text, setText] = useState('');
-     const toRotate = ['Sejam bemvindos ao meu portifolio em REACT'];
+     const toRotate = ['Sejam bemvindos ao meu portifólio em REACT'];
      const [loop, setLoop] = useState(0);
      const [isDeleting, setIsDeleting] = useState(false);
      const period = 200;
@@ -42,7 +42,8 @@ function Eu(){
            
             
             <p>Sou um estudante de desenvolvimento WEB,<br/>
-              a abaixo eu estou deixando alguns dos meus projetos de estudos
+            estou iniando a minha carreira como desenvolvedor<br/>
+              a abaixo eu deixo alguns dos meus projetos que eu fiz<br/> ao longo dos meus estudos.
             </p>
         </div>
     )
