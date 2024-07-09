@@ -1,20 +1,49 @@
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: #131d30;
-    height: 137px;
+    background-color:#0c121e;
+    height: 237px;
     width: 100%;
+  
 }
 ul{
     display: flex;
-    padding: 3px;
-    margin-left: 90px;
+    padding: 25px;
+    margin-left: 400px;
+   
+    
 }
 
 ul li{
+    font-size: 50px;
     display: inline;
-    padding: 50px;
+    padding: 25px;
 }
+
+@media only screen and (max-width: 600px){
+    nav{
+       height: 100px;
+       width: 900px;
+       padding: 5px;
+       
+    }
+   ul{
+      margin-left: 10px;
+      padding: 15px;
+   }
+    ul li{
+      margin: 10px;
+      font-size: 10px;
+      padding: 5px;
+      margin-top: 25px;
+    }
+   
+
+    #ico{display: none;
+    }
+   
+}
+
 
 
 

@@ -12,7 +12,7 @@ function Nav(){
             </ul>
          
           <ul className='icon'>
-            <li> <a href='https://github.com/MauricioTaborda16'> <FaGithub size={50} /></a> </li>
+            <li> <a href='https://github.com/MauricioTaborda16' id="ico"> <FaGithub size={60} /></a> </li>
           </ul>
             
         </nav>

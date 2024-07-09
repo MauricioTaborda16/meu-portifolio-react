@@ -1,6 +1,16 @@
 .container{
     display: flex;
 }
+.Pro h1{ font-size: 55px;}
 .Pro{
     margin: 80px;
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+      display: block;
+    
+    }
+    .Pro{margin: 15px;}
+    .Pro h1{ font-size: 25px;}
 }

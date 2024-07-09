@@ -1,12 +1,10 @@
 #TeC{
     display: flex;
-    
     margin: 50px;
 }
 
 
 .tec{
-  
     text-align: center;
     margin: 30px;
     padding: 3px;
@@ -23,8 +21,27 @@
 }
 
 .tec p{
-    
     font-size: 50px;
     font-weight: 600;
     margin: 0px;
+}
+
+@media only screen and (max-width: 600px){
+    #TeC{margin: 10px;}
+    .tec{
+        margin: 2px;
+        padding: 8px;
+        width: 75px;
+        height: 75px;
+        margin-left: 5px;
+        border-radius: 15px 0px 15px;
+    }
+    .tec img{ 
+        margin: 10px;
+        width: 40px;
+    }
+
+    .tec p{
+        font-size: 10px;
+    }
 }
