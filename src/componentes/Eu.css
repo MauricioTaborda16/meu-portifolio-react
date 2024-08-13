@@ -1,5 +1,6 @@
 .Eu{
     margin: 50px 50px 400px 50px;
+    
 }
 
 .Eu h1{
@@ -25,7 +26,8 @@
 }
 
 @media only screen and (max-width: 600px){
- .Eu {margin: 10px; }
+ .Eu {
+       margin: 10px  }
  
     .Eu h2{
         height: 2px;
@@ -35,14 +37,15 @@
     }
 
     .Eu h1{
-        font-size: 20px;
-        margin: 10px;
-       
+        font-size: 40px;
+        margin: 0px;
+     
     }
 
     .Eu p{
         font-size: 15px;
-        margin-left: 50px;
+        
+        margin: 30px;
         
     }
 

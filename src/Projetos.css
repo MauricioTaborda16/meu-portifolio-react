@@ -8,9 +8,12 @@
 
 @media only screen and (max-width: 600px){
     .container{
-      display: block;
+      display: flex;
+     
     
     }
-    .Pro{margin: 15px;}
-    .Pro h1{ font-size: 25px;}
+    .Pro{margin: 2px;}
+    .Pro h1{ font-size: 25px;
+            margin: 10px;
+    }
 }

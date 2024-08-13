@@ -2,7 +2,7 @@ import './Nav.css'
 import { FaGithub } from "react-icons/fa";
 function Nav(){
     return(
-        <nav>
+        <nav id='f'>
           
             <ul>
                 <li><a href='#Projetos'>Projetos</a></li>

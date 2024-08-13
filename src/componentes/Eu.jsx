@@ -37,14 +37,19 @@ function Eu(){
         <div id='SobreM' className='Eu'>
              <h2>{text}</h2>
 
-            <h1>Olá, eu me chamo Mauricio Taborda</h1>
+             
+             <h1>Olá, eu me chamo Mauricio Taborda</h1>
            
            
             
-            <p>Sou um estudante de desenvolvimento WEB,<br/>
-            estou iniando a minha carreira como desenvolvedor<br/>
-              a abaixo eu deixo alguns dos meus projetos que eu fiz<br/> ao longo dos meus estudos.
-            </p>
+           <p>Sou um estudante de desenvolvimento WEB,<br/>
+           estou iniando a minha carreira como desenvolvedor<br/>
+             a abaixo eu deixo alguns dos meus projetos que eu fiz<br/> ao longo dos meus estudos.
+           </p>
+           
+             
+
+            
         </div>
     )
 }

@@ -1,10 +1,18 @@
+"use client"
 import './Card.css'
-function Card({imag, des, site, }){
+import { FaGithub } from "react-icons/fa";
+import { useState } from 'react';
+function Card({imag, des, site, git }){
+    const [isHover, setIsHover] = useState(false);
     return(
         <div className="cad">
-            <img src={imag}/>
+            <div  style={{position: "relative"} } onMouseEnter={()=> setIsHover(true)} onMouseLeave={()=> setIsHover(false)} >
+            <div className='cliqu' style={{opacity: isHover ? '0.5' :'0'}}> <a href={site}>Visualizar</a></div>
+           <img src={imag}/>
+            </div>
+         
             <p>{des}</p>
-            <button> <a href={site}>Ver</a></button>
+            <button> <a href={git}>Repositorio <FaGithub size={30} id='gi' /></a></button>
         </div>
     )
 }

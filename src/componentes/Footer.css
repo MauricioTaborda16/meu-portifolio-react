@@ -1,5 +1,6 @@
 footer {
     display: flex;
+    justify-content: space-between;
     padding: 5px;
     text-align:justify;
     width: 100%;
@@ -23,13 +24,21 @@ footer a{
 @media only screen and (max-width: 600px){
     footer{
         width: 900px;
-        display: block;   
+        height: 100px;
+      
     }
 
     footer h1{text-align: left;
-       font-size: 20px;
+       font-size: 10px;
        margin: 15px;
     }
     footer a{ margin-left: 100px;
+       
     }
+    .ic{width: 30px;}
+   .git{
+    position: absolute;
+    top:1600px;
+    left: 290px;
+   }
 }

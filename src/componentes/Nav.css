@@ -1,11 +1,15 @@
 nav{
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     background-color:#0c121e;
-    height: 237px;
+    height: 137px;
     width: 100%;
+    align-items: center;
   
 }
+
+
+
 ul{
     display: flex;
     padding: 25px;
@@ -15,33 +19,39 @@ ul{
 }
 
 ul li{
-    font-size: 50px;
+    font-size: 25px;
     display: inline;
     padding: 25px;
 }
 
 @media only screen and (max-width: 600px){
-    nav{
-       height: 100px;
+    nav{display: flex;
+       height: 50px;
        width: 900px;
-       padding: 5px;
+       padding: 30px;
        
     }
+   
    ul{
-      margin-left: 10px;
-      padding: 15px;
+      margin-left: 5px;
+      padding: 10px;
    }
     ul li{
       margin: 10px;
       font-size: 10px;
       padding: 5px;
-      margin-top: 25px;
+      margin-top: 10px;
     }
    
 
-    #ico{display: none;
+    #ico {display: flex;
+       width: 30px;
+       position: absolute;
+       top: 20px;
+       left: 380px;
+       
     }
-   
+    
 }
 
 
