@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <Nav/>
-    <br/><br/><br/><br/><br/>
+    
     <Eu/>
     
     <Projetos id="Projetos"/>

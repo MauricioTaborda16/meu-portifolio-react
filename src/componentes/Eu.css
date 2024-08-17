@@ -1,53 +1,47 @@
 .Eu{
-    margin: 50px 50px 400px 50px;
+     margin-top: 300px;
     
 }
 
 .Eu h1{
-    font-size: 70px;
-    margin: 30px;
+     font-size: 70px;
+     margin: 30px;
 }
 
 .Eu h2{
-    font-size: 50px;
-    margin: 60px;
-    margin-left: 200px;
-    background-color: black;
-    width: 1250px;
-    height: 100px;
-    padding: 45px;
-    border-radius: 30px 0px 30px;
+     font-size: 50px;
+     margin: 60px;
+     margin-left: 200px;
+     background-color: black;
+     width: 1250px;
+     height: 100px;
+     padding: 45px;
+     border-radius: 30px 0px 30px;
 }
 
 .Eu p{
-    font-size: 40px;
-    margin: 50px;
-    font-weight: 300;
+     font-size: 40px;
+     margin: 50px;
+     font-weight: 300;
 }
 
 @media only screen and (max-width: 600px){
  .Eu {
-       margin: 10px  }
- 
+          margin: 10px  
+    }
     .Eu h2{
-        height: 2px;
-        font-size: 10px;
-        margin-left: 50px;
-        width: 200px;
+         height: 2px;
+         font-size: 10px;
+         margin-left: 50px;
+         width: 200px;
     }
-
     .Eu h1{
-        font-size: 40px;
-        margin: 0px;
-     
+         font-size: 40px;
+          margin: 0px;   
     }
-
     .Eu p{
-        font-size: 15px;
-        
-        margin: 30px;
-        
+         font-size: 15px;
+         margin: 30px;
     }
-
 }
 

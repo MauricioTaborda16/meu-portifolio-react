@@ -10,8 +10,8 @@ function Foooter(){
           <h1><MdOutlineEmail size={60} className="ic"/> mauriciotabord@gmail.com</h1> 
           <h1> <RiWhatsappLine size={60} className="ic" /> (41) 9 9970-9236</h1>
           </div>
-         
-          <a href="https://github.com/MauricioTaborda16" className="git"><FaGithub size={100} className="ic"  /></a>
+         <div className="git"> <a href="https://github.com/MauricioTaborda16" ><FaGithub size={90} className="ic"  /></a>
+         </div>
          
         </footer>
     )
