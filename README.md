@@ -2,4 +2,4 @@
 
 Linke do site: https://meu-portifolio-react.vercel.app/
 
-<img src="././assets/css.jpg"/>
+<img src="/assets/css.jpg"/>
