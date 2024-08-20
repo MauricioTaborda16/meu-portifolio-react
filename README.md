@@ -11,5 +11,12 @@ A main apresenta o projeto acabado.
 # original
 A original apresenta a primeira versão sem nenhuma mudanças
 
+# original
+A original apresenta a primeira versão sem nenhuma mudanças
+
 # principal
- A principal conten todas as alterações
+## A principal conten todas as alterações
+como prinsipal alteraçoe é destacada a responcividade do css e a inserção da funcionalidade 'setIsHover',
+ na versão original o botão ver entrava na pagina do projeto que o cad apresentava, na versão principal  o botão ver foi substituido por repositorio e a funcionalidade setIsHover ficol responsável visualização do projeto.
+ ### Antes e depois
+ <img src="/src/imag/antes-e-depois.png">
